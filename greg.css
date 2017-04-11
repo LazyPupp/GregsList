@@ -1,0 +1,110 @@
+/*nav*/
+.nav-bar{
+	width:100%;
+	height:50px;
+	background-color:gainsboro;
+	position:fixed;
+}
+.nav-bar{
+	padding-left:10px;
+	padding-right:10px;
+}
+.nav-bar p{
+	display:inline-block;
+	font-weight:bold;
+}
+.nav-bar ul{
+	display:inline-block;
+	list-style:none;
+	width:87%;
+	text-align:right;
+}
+.nav-bar li{
+	display:inline-block;
+}
+.nav-bar a{
+	text-decoration:none;
+	font-weight:bold;
+}
+.post{
+	margin-right:10px;
+}
+.account{
+	margin-left:10px;
+}
+/*main*/
+main{
+	padding-top:100px;
+	padding-left:100px;
+}
+/*Search box*/
+.mag{
+	width:30px;
+	position:relative;
+	top:40px;
+	left:-90px;
+	border:1px solid gainsboro;
+	border-radius:2px;
+}
+.search-box{
+	position:relative;
+	top:30px;
+	left:-90px;
+	width:400px;
+	padding-top:5px;
+	padding-bottom:5px;
+
+}
+/*Num Queries*/
+.num-results{
+	padding-top:50px;
+}
+.num-results a,.num-results p{
+	display:inline-block;
+	text-decoration:none;
+	color: black;
+}
+.prev, .num-queries,.next{
+	border:1px solid gainsboro;
+}
+.prev,.next{
+	padding:5px 10px;
+}
+.prev{
+	position:relative;
+	left:0px;
+	border-radius:2px 0px 0px 2px;
+}
+.num-queries{
+	position: relative;
+	left:-5px;
+	padding:5px 20px;
+}
+.next{
+	position:relative;
+	left:-9.3px;
+	border-left: 0px;
+	border-radius:0px 2px 2px 0px;
+}
+/*Search Results*/
+.search-container{
+	padding-top:40px;
+}
+main section>ul{
+	list-style-type: none;
+	display:block;
+	padding-left:0px;
+	margin:0px;
+}
+main section li{
+	margin-bottom: 15px;
+}
+.date-loc{
+	color:silver;
+}
+.job-link{
+	color:blue;
+	padding:0px 5px;
+	text-decoration:none;
+	font-weight:bold;
+}
